@@ -77,6 +77,44 @@ This project automates job discovery, salary analysis, company‑specific search
 
 ## 🖥️ Example Output
 
+    ```python
+    /usr/local/bin/python3.13 /Users/mrugesh/Documents/projects/job-search-ai-agent/src/setup_job_search.py 
+    ============================================================
+    🚀 GENERIC JOB SEARCH TOOL SETUP
+    ============================================================
+    
+    Welcome! This tool will help you set up your job search preferences.
+    You can either:
+    1. Use a pre-configured template for common job roles
+    2. Create a custom configuration
+    3. Use the default Software Engineer configuration
+    ------------------------------------------------------------
+    
+    Available job role templates:
+    1. Software Engineer
+    2. Data Scientist
+    3. Marketing Manager
+    4. Database Engineer
+    5. Entry Level Software Engineer
+    6. Product Manager
+    7. DevOps Engineer
+    8. UX Designer
+    9. Custom configuration
+    0. Use default (Software Engineer)
+    \nSelect an option (0-9): 2
+    \n📋 Using Data Scientist template:
+    Title: Data Scientist
+    Skills: Python, SQL, Machine Learning
+    Salary: $90,000 - $140,000
+    \nUse this template? (y/n): y
+    ✅ Configuration saved to config.py
+    \n✅ Data Scientist configuration saved!
+    \n🎯 Setup complete! You can now run:
+       python run_search.py
+    \nOr customize your configuration further by editing config.py
+
+
+
 - **Quick Search**
 
 Quick search results for 'Software Engineer remote' (5 jobs):
