@@ -7,45 +7,34 @@ Customize these settings to match your job search preferences.
 JOB_CONFIG = {
     # Basic job preferences
     "title": "Software Engineer",
-    "alternative_titles": [
-        "Software Developer", 
-        "Full Stack Developer", 
-        "Backend Developer", 
-        "Frontend Developer",
-        "Web Developer",
-        "Application Developer"
-    ],
+    "alternative_titles": ['Software Developer', 'Full Stack Developer', 'Backend Developer', 'Frontend Developer', 'Web Developer'],
     
     # Experience and skill level
-    "years": "2-5",  # Years of experience
-    "level": "intermediate",  # entry-level, beginner, intermediate, advanced, expert
+    "years": "2-5",
+    "level": "intermediate",
     
     # Required skills (must have) - comma separated string for tools
     "required_skills": "Python, JavaScript, React",
     
     # Preferred skills (nice to have)
-    "preferred_skills": [
-        "Node.js",
-        "AWS", 
-        "Docker"
-    ],
+    "preferred_skills": ['Node.js', 'AWS', 'Docker', 'PostgreSQL'],
     
     # Location and work preferences
-    "location_preference": "NJ, USA",  # remote, hybrid, onsite, or specific city
+    "location_preference": "remote",
     
     # Salary expectations
-    "salary_expectation": "$150,000 - $200,000",
-    "min_salary": "150000",
-    "max_salary": "200000",
+    "salary_expectation": "$80,000 - $120,000",
+    "min_salary": "80000",
+    "max_salary": "120000",
     
     # Career goals
     "career_goals": "Growth in software engineering and technical leadership",
     
     # Company targeting (for company-specific searches)
-    "target_companies": "Google, Microsoft, Amazon, Apple, Meta, Netflix, Spotify",
+    "target_companies": "Google, Microsoft, Amazon, Apple, Meta, Netflix",
     
     # Entry-level specific settings
-    "include_internships": "no",  # yes or no
+    "include_internships": "no",
     
     # Quick search keywords
     "search_keywords": "Software Engineer remote"

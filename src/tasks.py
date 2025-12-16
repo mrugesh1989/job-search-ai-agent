@@ -51,7 +51,7 @@ SalaryFocusedSearch = Task(
     Prioritize remote opportunities and positions with comprehensive benefits packages.""",
     expected_output="A nicely formatted markdown text using tables to display {title} jobs with salary information, including company details, job requirements, and application links.",
     agent=JobSearchAgent,
-    output_file="../../job-search-ai-agent/src/job-posts/salary-focused-results.md"
+    output_file="job-posts/salary-focused-results.md"
 )
 
 CompanyTargetedSearch = Task(
@@ -66,7 +66,7 @@ CompanyTargetedSearch = Task(
     Group open roles by each company.""",
     expected_output="Output needs to be nicely formatted markdown text in tabular format. A detailed report of open roles for {title} opportunities at target companies",
     agent=CompanyTargetedAgent,
-    output_file="../../job-search-ai-agent/src/job-posts/company-targeted-results.md"
+    output_file="job-posts/company-targeted-results.md"
 )
 
 EntryLevelSearch = Task(
@@ -82,7 +82,7 @@ EntryLevelSearch = Task(
     Identify roles that offer training, mentorship, and clear career progression paths.""",
     expected_output="Output needs to be nicely formatted markdown text. Use tables where appropriate.A comprehensive guide to entry-level {title} opportunities, including skill requirements, career paths, and development recommendations.",
     agent=EntryLevelAgent,
-    output_file="../../job-search-ai-agent/src/job-posts/entry-level-results.md"
+    output_file="job-posts/entry-level-results.md"
 )
 
 QuickSearch = Task(
@@ -96,5 +96,5 @@ QuickSearch = Task(
     Focus on speed and breadth of results rather than detailed analysis.""",
     expected_output="Output needs to be nicely formatted markdown text. Use tables where appropriate. A quick summary of current {title} job opportunities with basic details and application links.",
     agent=JobSearchAgent,
-    output_file="../../job-search-ai-agent/src/job-posts/quick-search-results.md"
+    output_file="job-posts/quick-search-results.md"
 )
