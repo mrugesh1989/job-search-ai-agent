@@ -6,38 +6,38 @@ Customize these settings to match your job search preferences.
 # Job Search Configuration
 JOB_CONFIG = {
     # Basic job preferences
-    "title": "Data Scientist",
-    "alternative_titles": ['Data Analyst', 'Machine Learning Engineer', 'AI Engineer', 'Research Scientist', 'Analytics Engineer'],
+    "title": "Software Engineer",
+    "alternative_titles": ['Software Developer', 'Full Stack Developer', 'Backend Developer', 'Frontend Developer', 'Web Developer'],
     
     # Experience and skill level
-    "years": "3-7",
-    "level": "intermediate/advanced",
+    "years": "2-5",
+    "level": "intermediate",
     
     # Required skills (must have) - comma separated string for tools
-    "required_skills": "Python, SQL, Machine Learning",
+    "required_skills": "Python, JavaScript, React",
     
     # Preferred skills (nice to have)
-    "preferred_skills": ['TensorFlow', 'PyTorch', 'AWS', 'Spark', 'Tableau'],
+    "preferred_skills": ['Node.js', 'AWS', 'Docker', 'PostgreSQL'],
     
     # Location and work preferences
     "location_preference": "remote",
     
     # Salary expectations
-    "salary_expectation": "$90,000 - $140,000",
-    "min_salary": "90000",
-    "max_salary": "140000",
+    "salary_expectation": "$80,000 - $120,000",
+    "min_salary": "80000",
+    "max_salary": "120000",
     
     # Career goals
-    "career_goals": "Advancing in AI/ML and data-driven decision making",
+    "career_goals": "Growth in software engineering and technical leadership",
     
     # Company targeting (for company-specific searches)
-    "target_companies": "Google, Microsoft, Amazon, Netflix, Uber, Airbnb",
+    "target_companies": "Google, Microsoft, Amazon, Apple, Meta, Netflix",
     
     # Entry-level specific settings
     "include_internships": "no",
     
     # Quick search keywords
-    "search_keywords": "Data Scientist remote"
+    "search_keywords": "Software Engineer remote"
 }
 
 # Search Type Descriptions
